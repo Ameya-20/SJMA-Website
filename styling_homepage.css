@@ -1,0 +1,233 @@
+body{
+    color: white;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+/* Add some content at the bottom of the video/page */
+.navbar{
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    color: #f1f1f1;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    width: 15%;
+    margin-left: 1%;
+}
+.logoimg{
+    height: 100px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+#menu{
+    width: 60%;
+    margin-top: 10px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+ul
+{
+    list-style: none;
+    
+}
+
+#menu ul li a{
+    font-family: serif;
+    padding-bottom: 3px;
+    font-size: 28px;
+    float: left;
+    margin: 15px;
+    margin-right: 3%;
+    color: antiquewhite;
+    transition: 1s linear;
+}
+#menu ul li:hover{
+    text-decoration: underline;
+    
+}
+
+#home{
+    text-decoration: underline;
+}
+
+.socialmedia{
+    float: left;
+    margin-top: 28px;
+    width: 10%;
+}
+
+.slogo{
+    width:32px;
+    height: 32px;
+    margin-right: 10%;
+}
+
+.slogot{
+    width:37px;
+    height: 37px;
+    margin-right: 0%;
+}
+
+.quote{
+    position: absolute;
+   width: auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    margin-top: -70vh;
+    margin-left: 49%;
+    padding-left: 1%;
+    margin-right: 2%;
+}
+.quote h2{
+    font-family: Georgia, serif;
+    font-size: 420%;
+}
+
+.aboutussection{
+    width: 100%;
+    height: 110vh;
+    margin-top: -1vh;
+    
+}
+
+.aboutustext{
+    width: 100%;
+    position: absolute;
+    width: auto;
+    height: 75vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    margin-top: -95vh;
+    margin-left: 1%;
+    padding-left: 1%;
+    margin-right: 42%;
+    font-family: Georgia, serif;
+    font-size: 190%;
+    padding: 1.5%;
+    border-radius: 5%;
+    
+}
+
+.aboutustext button{
+    background: black;
+    width: 22%;
+    border-radius: 7px;
+    border: 1.5px black solid;
+    padding: 1%;
+    font-size: 90%;
+    float: left;
+}
+
+.aboutustext button:hover{
+    background: white;
+    color: black;
+}
+
+.aboutustext h1{
+    font-size: 150%;
+}
+
+.servicesdetails {
+    width:100%;
+    position: absolute;
+    margin-top: 0vh;
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 100vh;
+    font-family: Georgia, serif;
+    font-size: 190%;
+    
+}
+
+.serv{
+    width: 30%;
+    min-height:  40%;
+    margin: 1%;
+    float: left;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.serv p{
+   display: none;
+    width: auto;
+    font-family: serif;
+    font-size: 26px;
+    font: bold;
+    margin: 22%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-radius: 5px;
+}
+.serv:hover{
+   opacity: 0.7;
+    
+}
+.serv:hover #stext{
+display: block;
+}
+#serv1{
+    background-image: url(source/cands.jpg);   
+}
+#serv1:hover{
+ }
+#serv2{
+    background-image: url(source/infra.jpg);
+    
+}
+#serv3{
+    background-image: url(source/geotech.jpg);
+     
+}
+#serv4{
+    background-image: url(source/industrial.jpg);
+     
+}
+#serv5{
+    background-image: url(source/software.jpg);
+     
+}
+
+.projects{
+    width: 100%;
+    height: 100vh;
+    
+}
+#projvid{
+    position: relative;
+    margin-top: 100vh;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100vh;   
+}
+
+.copyright{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 100vh;
+    background-color: black;   
+}
+.copyright h1{
+    padding-top: 10%;
+    color: white;
+}
